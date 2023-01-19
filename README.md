@@ -3,7 +3,7 @@ Serial communication is simply a way to transfer data. The data will be sent seq
 
 
 ## Arduino to RPI
-Used for communication between the Arduino board and a computer or other devices. All Arduino boards have at least one serial port (also known as a UART or USART), and some have several.  [reference](https://www.arduino.cc/reference/en/language/functions/communication/serial/)
+Serial arduino library is used for communication between the Arduino board and a computer or other devices. All Arduino boards have at least one serial port (also known as a UART or USART), and some have several.  [reference](https://www.arduino.cc/reference/en/language/functions/communication/serial/)
 
 ## RPI to Arduino
 PySerial is a python library for serial communication which can open a port. It provides backends for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant system) and IronPython. The module named “serial” automatically selects the appropriate backend. [Reference](https://pyserial.readthedocs.io/en/latest/pyserial_api.html)
